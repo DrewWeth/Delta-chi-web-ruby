@@ -1,0 +1,142 @@
+
+ <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="fill" style="background-image:url('http://hwstheherald.com/wordpress/wp-content/uploads/2013/04/4-24-delta-chi.jpg');"></div>
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <div class="fill" style="background-image:url('http://missourideltachi.com/images/slider1.jpg');"></div>
+            <div class="carousel-caption">
+              <h1>Leading since 1890</h1>
+            </div>
+          </div>
+          <div class="item">
+            <div class="fill" style="background-image:url('http://i75.photobucket.com/albums/i318/Davelton/dchiback2.jpg');"></div>
+            <div class="carousel-caption">
+              <h1>Welcome to Mizzou</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="icon-next"></span>
+        </a>
+    </div>
+
+
+    <div class="section">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <h3><span class="badge">1</span> Prospective Members</h3>
+            <p>Learn about recruitment and being a Delta Chi associate member here <a class="btn btn-danger" href="recruitment.html">Learn More</a>
+</p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <h3><span class="badge">2</span> Actives</h3>
+            <p>Active member login and event creation through here <a class="btn btn-danger" href="actives.html">Get Started</a>
+</p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <h3><span class="badge">3</span> Alumni</h3>
+            <p>Click here if you're an alumni from the Missouri chapter <a class="btn btn-danger" href="alumni.html">Reconnect</a>
+</p>
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+
+    </div><!-- /.section -->
+
+    <div class="section-colored text-center">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Delta Chi - Missouri Chapter</h2>
+            <p>Founded in 1890 and going strong. See below for a welcome letter and upcoming events.</p>              
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+
+    </div><!-- /.section-colored -->
+    <div class="text">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+            <h3>Welcome Letter</h3>
+            Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here. Welcome Letter Here.
+          </div>
+        <div class="col-xs-6 col-md-4">
+          <h3>What Members Are Organizing</h3>
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h4>Events</h4>
+            </div>
+            <div class="panel-body">
+              <div class="col-lg-6">
+                <li><a href="#">Event 1</a>
+              </div>
+            <div class="col-lg-6">
+             <a class="btn btn-danger" href="#">Join</a>
+            </div>
+            </div>
+          </div>
+        </div> <!-- column-->
+        </p>
+        </div> <!-- row-->
+      </div>
+    </div>
+
+      <hr>
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/modern-business.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+      var list = $('#scroller').children().children();
+
+        var max = list.length - 1,
+          index = 0,
+          fadeIn = true,
+          fadeTime = 1000,
+          interval = 1000;
+
+      function doFadeLoop() {
+      if (fadeIn) {
+          $(list[index]).fadeIn(fadeTime);
+          interval = 2000;
+      }
+      else {
+          $(list[index]).fadeOut(fadeTime);
+          index++;
+          if (index > max)
+              index = 0;
+          interval = 1000;
+      }
+      fadeIn = !fadeIn;
+      setTimeout(doFadeLoop, interval);
+      }
+      doFadeLoop();
+    });
+  </script>
+

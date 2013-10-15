@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Delta Chi Website</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" name="top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+          <a class="navbar-brand" href=".">Missouri Delta Chi</a><!--<span class="hidden-desktop"></span>
+    <span class="main-emphasis"><div id="scroller">
+      <ul class="unstyled">
+        <li>Friendship</li>
+        <li>Character</li>
+        <li>Justice</li>
+        <li>Education</li>
+      </ul>
+    </div></span>-->
+          <!--<a class="navbar-brand logo-nav" href="index.html"><img src="">Logo Here</a>-->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">About</a></li>
+            <li><a href="involvement.html">Involvement</a></li>
+            <li><a href="meet-us.html">Meet Us</a></li>   
+            <li><a href="recruitment.html">Recruitment</a></li>  
+            <li><a href="actives.html">Actives</a></li>
+            <li><a href="alumni.html">Alumni</a></li>
+            <li><a class="dropdown-toggle" data-toggle="dropdown">Login<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <div class="well">
+                  <form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="inputEmail">Email</label>
+    <div class="controls">
+      <input type="text" id="inputEmail" placeholder="Email">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">Password</label>
+    <div class="controls">
+      <input type="password" id="inputPassword" placeholder="Password">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <label class="checkbox">
+        <input type="checkbox"> Remember me
+      </label>
+      <button type="submit" class="btn">Sign in</button>
+    </div>
+  </div>
+</form></li>
+              </div>
+            </li><!-- end of navigation list-->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+
+<%= yield %>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p><center>Copyright &copy; Missouri Delta Chi Fraternity 2013 &middot; <a href="https://www.facebook.com/groups/283220051767939/">Facebook</a> &middot; <a href="https://twitter.com/MizzouDeltaChi">Twitter</a> &middot; <a href="#">Google+</a></center></p>
+          </div>
+          <a href="#top" id="scroll-top-link" class="avia-font-entypo-fontello avia_pop_class">Top</a>
+        </div>
+      </footer>
+</body>
+</html>
