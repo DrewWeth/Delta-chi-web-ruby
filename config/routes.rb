@@ -8,6 +8,8 @@ DeltaChiWebsite::Application.routes.draw do
   get "involvement" => "statics#involvement"
   get "donations" => "statics#donations"
   get "meet-us" => "statics#meet-us"
+  get "login" => "statics#login"
+ 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

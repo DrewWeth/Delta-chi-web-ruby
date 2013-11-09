@@ -6,8 +6,10 @@
         <div class="col-lg-12">
           <h1 class="page-header">Delta Chi Prospective Members</h1>
           <ol class="breadcrumb">
-            <li><a href=".">Home</a></li>
+            <li><%=link_to "home", "home"%></li>
             <li class="active">Prospective Members</li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#form">Recruitment Form</a>
           </ol>
         </div>
 
@@ -15,17 +17,40 @@
 
       <div class="row">
 
-        <div class="col-lg-12">
-          <p>This page features a page header, breadcrumbs, and the footer but that's it. Use this as a template for completely custom pages you wish to add to your site.</p>
-          <p>Be sure to read over and understand all of the Bootstrap 3 components at <a href="http://getbootstrap.com">http://getbootstrap.com</a> to get the most out of any Start Bootstrap template.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam placerat nunc ut tellus tristique, non posuere neque iaculis. Fusce aliquet dui ut felis rhoncus, vitae molestie mauris auctor. Donec pellentesque feugiat leo a adipiscing. Pellentesque quis tristique eros, sed rutrum mauris.</p>
-        </div>
+        <div class="col-lg-12"> <!-- The paragraph area of the top of the page -->
+          <p>
+            <center><h4>Here are our recruiters. Feel free to reach out and contact them, it never hurts to introduce yourself.</h4></center>
+          </p>
+          <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Tristan</td>
+                    <td>Welsh</td>
+                    <td><a href="mailto:someone@example.com?Subject=Delta%20Chi%20Recruitment!" target="_top">Hit me up</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Chris</td>
+                    <td>Fulton</td>
+                    <td><a href="mailto:someone@example.com?Subject=Delta%20Chi%20Recruitment!" target="_top">Email me</a></td>
+                </tr>
+            </tbody>
+        </table>
+      </div> <!-- column 12 end -->
+    </div> <!-- row div -->
+  </div><!-- /.container -->
 
-      </div>
-
-    </div><!-- /.container -->
-
-    <div class="container">
+    <div class="container" id="faq">
 
       <div class="row">
 
@@ -100,11 +125,32 @@
       <div class="row">
 
         <div class="col-lg-12">
-          <h1 class="page-header">Submit Your Prospective Member Form</h1>
-          <p>Here is where the form stuff will go
-          </p>
+          <h1 class="page-header" id="form">Submit Your Prospective Member Form</h1>
+          <div id="wufoo-z1jlkg490ohibjj">
+Fill out my <a href="https://missourideltachi.wufoo.com/forms/z1jlkg490ohibjj">online form</a>.
+</div>
+<script type="text/javascript">var z1jlkg490ohibjj;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'missourideltachi', 
+'formHash':'z1jlkg490ohibjj', 
+'autoResize':true,
+'height':'1259',
+'async':true,
+'host':'wufoo.com',
+'header':'show', 
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { z1jlkg490ohibjj = new WufooForm();z1jlkg490ohibjj.initialize(options);z1jlkg490ohibjj.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
         </div>
       </div>
+      <p>
+      <center>Thanks, we'll contact you soon.</center>  
+    </p>
     </div>
     <div class="container">
 
