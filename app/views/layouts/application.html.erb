@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <meta content="width=1024" name="viewport">
 </head>
 <body>
 
@@ -39,7 +40,7 @@
             <li><a href="recruitment.html">Recruitment</a></li>  
             <li><a href="actives.html">Actives</a></li>
             <li><a href="alumni.html">Alumni</a></li>
-            <li><%=link_to "Login", "login"%></li>
+            <li><%=link_to "Login", login_path %></li>
               </div>
             </li><!-- end of navigation list-->
           </ul>
