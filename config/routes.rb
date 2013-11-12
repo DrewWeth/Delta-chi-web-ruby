@@ -2,6 +2,7 @@ DeltaChiWebsite::Application.routes.draw do
 
   root to: "statics#home"
   get "about" => "statics#about"
+  get "home" => "statics#home"
   get "actives" => "statics#actives"
   get "alumni" => "statics#alumni"
   get "recruitment" => "statics#recruitment"
