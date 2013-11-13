@@ -19,7 +19,7 @@
             <span class="icon-bar"></span>
           </button>
           
-          <a class="navbar-brand" href=".">Missouri Delta Chi</a><!--<span class="hidden-desktop"></span>
+          <a class="navbar-brand active" href=".">Missouri Delta Chi</a><!--<span class="hidden-desktop"></span>
     <span class="main-emphasis"><div id="scroller">
       <ul class="unstyled">
         <li>Friendship</li>
@@ -34,12 +34,13 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="about.html">About</a></li>
-            <li><a href="involvement.html">Involvement</a></li>
-            <li><a href="meet-us.html">Meet Us</a></li>   
-            <li><a href="recruitment.html">Recruitment</a></li>  
-            <li><a href="actives.html">Actives</a></li>
-            <li><a href="alumni.html">Alumni</a></li>
+            <li><%=link_to "About", about_path %></li>
+            <li><%=link_to "Involvement", involvement_path %></li>
+            <li><%=link_to "Meet Us", meet_path %></li>   
+            <li><%=link_to "Recruitment", recruitment_path %></li>  
+            <li><%=link_to "Active", actives_path %></li>
+            <li><%=link_to "Alumnus", alumni_path %></li>
+            <li><%=link_to "Contact", contact_path %></li>
             <li><%=link_to "Login", login_path %></li>
               </div>
             </li><!-- end of navigation list-->
