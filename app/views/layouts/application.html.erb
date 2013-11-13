@@ -10,44 +10,33 @@
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" name="top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          
-          <a class="navbar-brand active" href=".">Missouri Delta Chi</a><!--<span class="hidden-desktop"></span>
-    <span class="main-emphasis"><div id="scroller">
-      <ul class="unstyled">
-        <li>Friendship</li>
-        <li>Character</li>
-        <li>Justice</li>
-        <li>Education</li>
-      </ul>
-    </div></span>-->
-          <!--<a class="navbar-brand logo-nav" href="index.html"><img src="">Logo Here</a>-->
-        </div>
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand active" href=".">Missouri Delta Chi</a>
+  </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><%=link_to "About", about_path %></li>
-            <li><%=link_to "Involvement", involvement_path %></li>
-            <li><%=link_to "Meet Us", meet_path %></li>   
-            <li><%=link_to "Recruitment", recruitment_path %></li>  
-            <li><%=link_to "Active", actives_path %></li>
-            <li><%=link_to "Alumnus", alumni_path %></li>
-            <li><%=link_to "Contact", contact_path %></li>
-            <li><%=link_to "Login", login_path %></li>
-              </div>
-            </li><!-- end of navigation list-->
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><%=link_to "About", about_path %></li>
+        <li><%=link_to "Involvement", involvement_path %></li>
+        <li><%=link_to "Meet Us", meet_path %></li>   
+        <li><%=link_to "Recruitment", recruitment_path %></li>  
+        <!--<li><%=link_to "Active", actives_path %></li>-->
+        <li><%=link_to "Alumnus", alumni_path %></li>
+        <li><%=link_to "Contact", contact_path %></li>
+        <li><%=link_to "Login", home_path %></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
 
 
 <%= yield %>
