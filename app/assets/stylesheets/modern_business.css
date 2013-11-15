@@ -81,6 +81,10 @@ body {
   width: 100%;
   position: relative;
   background: url('http://i.imgur.com/m0p99Ui.jpg') no-repeat center center fixed; 
+  /*background: url('http://missourideltachi.com/uploads/5179b2b925147Delta%20Chi.jpg') no-repeat center center fixed; 
+background: url('http://i.imgur.com/m0p99Ui.jpg') no-repeat center center fixed; 
+  
+  */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
