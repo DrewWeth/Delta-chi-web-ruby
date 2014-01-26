@@ -12,6 +12,10 @@ html, body {
   height:100%;
 }
 
+.item { width: 25%; }
+.item.w2 { width: 50%; }
+
+
 body {
   padding-top: 50px; /* body padding for fixed top nav */
 }
@@ -73,6 +77,10 @@ body {
 
 .tab-pane {
   margin-top: 15px;
+}
+
+.grid-block {
+  height: 200px;
 }
 
 .header {
