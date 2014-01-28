@@ -79,10 +79,6 @@ body {
   margin-top: 15px;
 }
 
-.grid-block {
-  height: 200px;
-}
-
 .header {
   display: table;
   height: 100%;
