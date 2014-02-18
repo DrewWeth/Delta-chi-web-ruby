@@ -1,0 +1,51 @@
+about
+-----
+chapter history
+after committe chairman
+	-acalades
+	-format: faq javascript
+
+	-house 
+	-copy 'history of delta chi' with filler text. Place picture next to it
+
+
+move exec and committee pictures into meet-us tab
+remove all of our pictures and replace with exec, committees
+
+combine about and involvement
+
+TAB ORDER= about, meet us, recruitment, blog
+
+recruitment form
+-remove how are you feeling
+-remove gpa, act, address, honors and activities
+-rename "sports, hobbies, interests" to "tell us about yourself"
+
+remove <small> text</small> after contact us.
+add video to 1/3 text
+
+under contact us table
+-/+"recruiter name" 
+-remove #
+-email link
++email text
+
++blog tab
+http://mudeltachi.wordpress.com/
+
+alumni tab
++home/alumni home/news letter
+-coming soon
+-search for alumni
++alumni news letter (2/3)
+	check out the alumni news letter javascript pop up
++form (1/3)
++move donation up under form
+-remove man of excellence
+-article system
++welcome letter from mark sexton
++current and previous news letters
+
+contact
+-------
++change form email

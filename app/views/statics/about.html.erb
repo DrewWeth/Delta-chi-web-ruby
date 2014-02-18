@@ -1,173 +1,253 @@
 
-    <div class="container">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="page-header">About Us <small>Where we've been and now</small></h1>
+      <ol class="breadcrumb">
+        <li><a href=".">Home</a></li>
+        <li class="active">History</li>
+        <li><a href="#house">House</a></li>
+        <li><a href="#acalades">Acalades</a></li>
+      </ol>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6" id="about">
+      <h2>Chapter History</h2>
+      <p>Delta Chi is growing rapidly with more than 135 seperate chapters internationally and more than 107,000 collegiate members. Noted as a non-hazing fraternity and the first social fraternity to abolish hell week (hazing during initation week). Our four main values (friendship, character, justice, and education) coupled with our abolishment of hazing make us one of the stongest brotherhoods on campus and around the world.</p>
+      <p>Delta Chi was created to help law students at Cornell University band together to prevent abuse from campus authority, but have changed both reason and rhyme. Now Delta Chi focuses on helping university men excel and the community flourish. We've since spread accross the United States and into Cananda making us one of the largest fraternities in the world. We take pride in our collegiate pressence along with our support of the V Foundation For Cancer Research, our main philanthropic affiliation.</p>
+    </div>
+    <div class="col-sm-6">
+        <div id="chart_div" style="height: 100%; height: 240pt"></div>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+          google.load("visualization", "1", {packages:["corechart"]});
+          google.setOnLoadCallback(drawChart);
+          function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+              ['Year', 'Average Initiation Size', 'Total Chapter Size'],
+              ['2004',  4,       2],
+              ['2005',  6,       11],
+              ['2006',  3,       60],
+              ['2007',  10,       32],
+              ['2008',  16,       30],
+              ['2009',  14,       40],
+              ['2010',  22,      62],
+              ['2011',  21,      60],
+              ['2012',  30,       90],
+              ['2013',  33,      100]
+            ]);
 
-      <div class="row">
+            var options = {
+              title: 'Missouri Delta Chi Members'
 
-        <div class="col-sm-12">
-          <h1 class="page-header">About Us <small>Where we've been and now</small></h1>
-          <ol class="breadcrumb">
-            <li><a href=".">Home</a></li>
-            <li class="active">History</li>
-            <li><a href="#exec">Executives</a></li>
-            <li><a href="#committees">Committees</a></li>
-          </ol>
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-sm-6" id="about">
-          <h2>History of Delta Chi</h2>
-          <p>Delta Chi is growing rapidly with more than 135 seperate chapters internationally and more than 107,000 collegiate members. Noted as a non-hazing fraternity and the first social fraternity to abolish hell week (hazing during initation week). Our four main values (friendship, character, justice, and education) coupled with our abolishment of hazing make us one of the stongest brotherhoods on campus and around the world.</p>
-          <p>Delta Chi was created to help law students at Cornell University band together to prevent abuse from campus authority, but have changed both reason and rhyme. Now Delta Chi focuses on helping university men excel and the community flourish. We've since spread accross the United States and into Cananda making us one of the largest fraternities in the world. We take pride in our collegiate pressence along with our support of the V Foundation For Cancer Research, our main philanthropic affiliation.
-        </div>
-        <div class="col-sm-6">
-            <div id="chart_div" style="height: 100%; height: 240pt"></div>
-            <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-            <script type="text/javascript">
-              google.load("visualization", "1", {packages:["corechart"]});
-              google.setOnLoadCallback(drawChart);
-              function drawChart() {
-                var data = google.visualization.arrayToDataTable([
-                  ['Year', 'Average Initiation Size', 'Total Chapter Size'],
-                  ['2004',  4,       2],
-                  ['2005',  6,       11],
-                  ['2006',  3,       60],
-                  ['2007',  10,       32],
-                  ['2008',  16,       30],
-                  ['2009',  14,       40],
-                  ['2010',  22,      62],
-                  ['2011',  21,      60],
-                  ['2012',  30,       90],
-                  ['2013',  33,      100]
-                ]);
-
-                var options = {
-                  title: 'Missouri Delta Chi Members'
-
-                };
-                var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
-                chart.draw(data, options);
-              }
-            </script>
-        </div>
-      </div>
-
-      <!-- Team Member Profiles -->
-
-      <div class="row">
-
-        <div class="col-sm-12">
-          <h2 class="page-header" id="exec"><img src="http://upload.wikimedia.org/wikipedia/en/b/b2/Delta_Chi_Coat_of_Arms.png" height="80" width="60"> Our Executive Board</h2>
-        </div>
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>Jake Meyers <small>President <span class="label label-danger">A</span></small></h3>
-            <p>Mechanical engineering junior</p>
-            
-        </div>
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>Tyler Gill <small>Vice President <span class="label label-danger">B</span></small></h3>
-            <p>Geography and poli sci junior</p>
-            
-        </div>
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>Connor Bjornnes <small>Secretary <span class="label label-danger">C</span></small></h3>
-            <p>Strategic communications sophomore</p>
-            
-        </div>
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>Zach Hadler <small>Treasurer <span class="label label-danger">D</span></small></h3>
-            <p>Poli sci and econ junior</p>
-            
-        </div>
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>Gian Wessel <small>Alumni <span class="label label-danger">E</span></small></h3>
-            <p>Description</p>
-            
-        </div>
-
-        <div class="col-sm-4">
-        	<img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>Calvin Rankin <small>Risk Manager <span class="label label-danger">F</span></small></h3>
-            <p>Undeclared freshman</p>
-        </div>
-
-      </div>
-
-      <!-- Our Customers -->
-      <br>
-      <div class="row">
-        
-        <div class="col-sm-12" id="committees">
-          <h2 class="page-header">Our Committee Heads</h2>
-        </div>
-      </div>
-      <div class="row">  
-        <div class="col-sm-3">
-        	<img class="img-responsive" src="http://placehold.it/500x300">
-          <h4>Gunnar Johanson <small>Merchandise</small></h4>
-        </div>
-
-        <div class="col-sm-3">
-        	<img class="img-responsive" src="http://placehold.it/500x300">
-          <h4>Andrew Carnahan <small>Brotherhood</small></h4>
-        </div>
-
-        <div class="col-sm-3">
-        	<img class="img-responsive" src="http://placehold.it/500x300">
-          <h4>Eric Jackson <small>Sports</small></h4>
-        </div>
-
-        <div class="col-sm-3">
-        	<img class="img-responsive" src="http://placehold.it/500x300">
-          <h4>Brian Strom <small>Ritual</small></h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3">
-        	<img class="img-responsive" src="http://placehold.it/500x300">
-          <h4>Danny Renner <small>Service</small></h4>
-        </div>
-
-        <div class="col-sm-3">
-        	<img class="img-responsive" src="http://placehold.it/500x300">
-          <h4>Cole Lawson <small>Internal Philanthropy</small></h4>
-        </div>
-        <div class="col-sm-3">
-          <img class="img-responsive" src="http://placehold.it/500x300">
-          <h4>Brock Scoville <small>External Philanthropy</small></h4>
-        </div>
-        <div class="col-sm-3">
-          <img class="img-responsive" src="http://placehold.it/500x300">
-          <h4>Adam Joyce <small>Academics</small></h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3">
-          <img class="img-responsive" src="http://placehold.it/500x300">
-          <h4>Ryan Ebert <small>Banner Chair</small></h4>
-        </div>
-      </div>
+            };
+            var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+          }
+        </script>
+    </div>
+  </div>
+  <div class="row" id="house">
+    <div class="col-sm-6">
+      <img src="http://3.bp.blogspot.com/-CpxmJu3Km3k/UMPhfSoHaQI/AAAAAAAAF0Y/H5iQtXUZJuQ/s1600/Fire%2Blion.jpg" height="400" width="100%">
     </div>
 
-    </div><!-- /.container -->
+    <div class="col-sm-6">
+      <h2>The House</h2>
+      <p>Delta Chi is growing rapidly with more than 135 seperate chapters internationally and more than 107,000 collegiate members. Noted as a non-hazing fraternity and the first social fraternity to abolish hell week (hazing during initation week). Our four main values (friendship, character, justice, and education) coupled with our abolishment of hazing make us one of the stongest brotherhoods on campus and around the world.</p>
+      <p>Delta Chi was created to help law students at Cornell University band together to prevent abuse from campus authority, but have changed both reason and rhyme. Now Delta Chi focuses on helping university men excel and the community flourish. We've since spread accross the United States and into Cananda making us one of the largest fraternities in the world. We take pride in our collegiate pressence along with our support of the V Foundation For Cancer Research, our main philanthropic affiliation.</p>
+    </div>
+  </div>
 
-    <div class="container">
+  <div class="row" id="acalades">
+    <div class="col-sm-12">
+      <h2 class="page-header" id="exec"><img src="http://upload.wikimedia.org/wikipedia/en/b/b2/Delta_Chi_Coat_of_Arms.png" height="80" width="60"> Acalades</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="panel-group" id="accordion">
 
-      <hr>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                Do new members have to live in the house following their initiation?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">
+              Members will only be required to live in-house if it is not full, but it is typically near capacity so this is not an issue.
+            </div>
+          </div>
+        </div>
 
-    </div><!-- /.container -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                What about hazing?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+              Delta Chi is strongly opposed to any practices that are or may appear to be hazing. The experience of Delta Chi associate members should be one of education, challenges, personal development, and excitement. Hazing in any form contradicts these goals and is a direct violation of both the Ten Basic Expectations of a Delta Chi and the oath that every member takes during his initiation.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                How much does this cost?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">
+              Each semester's dues for active members are $655. Active member's semester dues are $755 (this is mandated by Delta Chi headquarters). Although negative steoreotypes surround fraternity life involving money, we cannot participate in socials, philathropy, gifts, and traditional greek life without contributions from our members. Not to mention headquarters mandated insurance!
+            </div>
+          </div>
+        </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                ?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <div class="panel-body">
+              Delta Chi is a non-hazing fraternity and historically the first to abolish hell week from new members' initation ceremony. 
+            </div>
+          </div>
+        </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                What about hazing?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+            <div class="panel-body">
+              Delta Chi is a non-hazing fraternity and historically the first to abolish hell week from new members' initation ceremony. 
+            </div>
+          </div>
+        </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                What about hazing?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse6" class="panel-collapse collapse">
+            <div class="panel-body">
+              Delta Chi is a non-hazing fraternity and historically the first to abolish hell week from new members' initation ceremony. 
+            </div>
+          </div>
+        </div>    
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="panel-group" id="accordion">
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                Do new members have to live in the house following their initiation?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">
+              Members will only be required to live in-house if it is not full, but it is typically near capacity so this is not an issue.
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                What about hazing?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+              Delta Chi is strongly opposed to any practices that are or may appear to be hazing. The experience of Delta Chi associate members should be one of education, challenges, personal development, and excitement. Hazing in any form contradicts these goals and is a direct violation of both the Ten Basic Expectations of a Delta Chi and the oath that every member takes during his initiation.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                How much does this cost?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">
+              Each semester's dues for active members are $655. Active member's semester dues are $755 (this is mandated by Delta Chi headquarters). Although negative steoreotypes surround fraternity life involving money, we cannot participate in socials, philathropy, gifts, and traditional greek life without contributions from our members. Not to mention headquarters mandated insurance!
+            </div>
+          </div>
+        </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                ?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <div class="panel-body">
+              Delta Chi is a non-hazing fraternity and historically the first to abolish hell week from new members' initation ceremony. 
+            </div>
+          </div>
+        </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                What about hazing?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+            <div class="panel-body">
+              Delta Chi is a non-hazing fraternity and historically the first to abolish hell week from new members' initation ceremony. 
+            </div>
+          </div>
+        </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                What about hazing?
+              </a>
+            </h4>
+          </div>
+          <div id="collapse6" class="panel-collapse collapse">
+            <div class="panel-body">
+              Delta Chi is a non-hazing fraternity and historically the first to abolish hell week from new members' initation ceremony. 
+            </div>
+          </div>
+        </div>    
+      </div>
+    </div>
+  </div>
+</div><!-- /.container -->
 
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
