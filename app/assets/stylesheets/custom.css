@@ -16,11 +16,10 @@ body,html {
 .footer-stuck {
     opacity: 1.0;
     width: 10px;
-    position: absolute;
+    position: fixed;
     top: 55px;
     margin-left: 5px;
 }
-
 
 
 #comment {
