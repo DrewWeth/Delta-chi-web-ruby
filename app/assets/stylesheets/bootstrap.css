@@ -385,6 +385,13 @@ hr {
   border-top: 1px solid #eeeeee;
 }
 
+hrsmallmargin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -4645,7 +4652,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .breadcrumb > li + li:before {
   padding: 0 5px;
   color: #cccccc;
-  content: "/\00a0";
+  content: ">\00a0";
 }
 
 .breadcrumb > .active {

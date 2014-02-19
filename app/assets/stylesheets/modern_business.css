@@ -142,7 +142,7 @@ background: url('http://i.imgur.com/m0p99Ui.jpg') no-repeat center center fixed;
 
 /* Social Icons Styles */
 .list-social-icons {
-  margin-bottom: 45px;
+  margin-bottom: 0px;
 }
 
 .tooltip-social a {
