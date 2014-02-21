@@ -4,4 +4,3 @@ Front end in Bootstrap with layout from startbootstrap.com. Back end in (you gue
 
 Collaborators
 Drew Wetherington
-Chris Schaefer
