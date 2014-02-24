@@ -1,3 +1,20 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+
+
+
+ */
+
 /*!
  * Bootstrap v3.0.0
  *
@@ -9,6 +26,7 @@
  */
 
 /*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+
 
 article,
 aside,
@@ -6832,4 +6850,259 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+
+html, body {
+  height:100%;
+}
+
+.item { width: 25%; }
+.item.w2 { width: 50%; }
+
+
+body {
+  padding-top: 50px; /* body padding for fixed top nav */
+}
+
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.img-10-opacity{
+  opacity:0.1;
+  filter:alpha(opacity=10); /* For IE8 and earlier */
+}
+.img-20-opacity{
+  opacity:0.2;
+  filter:alpha(opacity=20); /* For IE8 and earlier */
+}
+.img-30-opacity{
+  opacity:0.3;
+  filter:alpha(opacity=30); /* For IE8 and earlier */
+}
+
+.img-40-opacity{
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.img-50-opacity{
+  opacity:0.5;
+  filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+.img-60-opacity{
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+.img-70-opacity{
+  opacity:0.7;
+  filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+.img-80-opacity{
+  opacity:0.8;
+  filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.img-90-opacity{
+  opacity:0.9;
+  filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+.img-95-opacity{
+  opacity:0.95;
+  filter:alpha(opacity=95); /* For IE8 and earlier */
+}
+
+.img-98-opacity{
+  opacity:0.98;
+  filter:alpha(opacity=98); /* For IE8 and earlier */
+}
+
+.tab-pane {
+  margin-top: 15px;
+}
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url('http://i.imgur.com/m0p99Ui.jpg') no-repeat center center fixed; 
+  /*background: url('http://missourideltachi.com/uploads/5179b2b925147Delta%20Chi.jpg') no-repeat center center fixed; 
+background: url('http://i.imgur.com/m0p99Ui.jpg') no-repeat center center fixed; 
+  
+  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Page Sections */
+.section,
+.section-colored {
+  padding: 50px 0;
+}
+
+.section-colored {
+  background-color: #e1e1e1; /* change this to change the background color of a colored section */
+}
+
+.sidebar {
+  margin-top: 40px;
+}
+
+.sidebar ul {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+
+
+/* Half Page Height Carousel Customization */
+.carousel {
+  height: 50%;
+}
+
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+  margin-bottom: 0px;
+}
+
+.tooltip-social a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.facebook-link a:hover {
+  color: #3b5998;
+}
+
+.linkedin-link a:hover {
+  color: #007fb1;
+}
+
+.twitter-link a:hover {
+  color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+  color: #d14836;
+}
+
+/* Service Page Styles */
+.service-icon {
+  font-size: 50px;
+}
+
+/* 404 Page Styles */
+.error-404 {
+  font-size: 8em;
+}
+
+/* Pricing Page Styles */
+.price {
+  font-size: 4em;
+}
+
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+
+.price-month {
+  font-size: 35%;
+  font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+  margin: 50px 0;
+}
+
+@media all and (max-width: 480px)  {
+    .half {
+        float: left !important;
+        width: 50% !important;
+    }
+}
+
+
+/* Responsive Styles 
+@media (max-width: 767px) {*/
+
+.carousel {
+  height: 70%; /* increases the carousel height so it looks good on phones */
+}
+
+}
+// Place all the styles related to the statics controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body,html {
+	height: 100%;
+}
+
+#comment {
+  min-height: 22px;
+  padding: 19px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+a:link {color:#d9534f;}
+a:visited {color:#d43f3a;}
+
+.container {
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.icons-fixed
+{
+  position: fixed;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.fixed {  
+        position: fixed;   
+        top: 270px;  
+        //margin-left: 50px;  
 }

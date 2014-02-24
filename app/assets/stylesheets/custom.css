@@ -19,6 +19,13 @@ body,html {
 a:link {color:#d9534f;}
 a:visited {color:#d43f3a;}
 
+.container {
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .icons-fixed
 {
   position: fixed;
