@@ -11,7 +11,6 @@
  *= require_self
  *= require bootstrap
  *= require modern_business
- *= font-awesome
  *= require custom
  *= require_tree .
  */
