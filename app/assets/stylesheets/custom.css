@@ -6,35 +6,6 @@ body,html {
 	height: 100%;
 }
 
-
-.intro {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.intro-body {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.brand-heading {
-    font-size: 40px;
-}
-
-.intro-text {
-    font-size: 18px;
-}
-
 #comment {
   min-height: 22px;
   padding: 19px;
@@ -48,12 +19,10 @@ body,html {
 .btn-toolbar {
   text-align:center;
 }
-
 /*
 a:link {color:#d9534f;}
 a:visited {color:#d43f3a;}
 */
-
 .container {
   padding-right: 100px;
   padding-left: 100px;
