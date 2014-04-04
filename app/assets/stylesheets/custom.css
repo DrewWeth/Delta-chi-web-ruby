@@ -22,12 +22,38 @@ body,html {
 /*
 a:link {color:#d9534f;}
 a:visited {color:#d43f3a;}
-*/
+
 .container {
   padding-right: 100px;
   padding-left: 100px;
   margin-right: auto;
   margin-left: auto;
+}
+*/
+
+.edge-container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.left-edge {
+    float: left;
+    background: #000;
+    margin-top:40px;
+    width: 100% !important;
+    height: 500px;
+    position: absolute;
+}
+
+.right-edge {
+    float: right;
+    background: #000;
+    margin-top:40px;
+    width: 100% !important;
+    height: 100%;
+    position: absolute;
 }
 
 .icons-fixed
