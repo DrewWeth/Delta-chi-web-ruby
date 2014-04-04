@@ -148,6 +148,8 @@ background: url('http://i.imgur.com/m0p99Ui.jpg') no-repeat center center fixed;
 .tooltip-social a {
   text-decoration: none;
   color: inherit;
+  margin-left: 10px;
+
 }
 
 .facebook-link a:hover {
@@ -161,6 +163,11 @@ background: url('http://i.imgur.com/m0p99Ui.jpg') no-repeat center center fixed;
 .twitter-link a:hover {
   color: #39a9e0;
 }
+
+.hq-link a:hover {
+  color: #ff0000;
+}
+
 
 .google-plus-link a:hover {
   color: #d14836;
