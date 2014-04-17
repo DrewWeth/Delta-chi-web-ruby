@@ -1,16 +1,16 @@
 DeltaChiWebsite::Application.routes.draw do
 
   root to: "statics#home"
-  get "about" => "statics#home"
+  get "about" => "statics#about"
   get "home" => "statics#home"
-  get "actives" => "statics#home"
-  get "recruitment" => "statics#home"
-  get "involvement" => "statics#home"
-  get "donations" => "statics#home"
-  get "contact" => "statics#home"
+  get "actives" => "statics#actives"
+  get "recruitment" => "statics#recruitment"
+  get "involvement" => "statics#involvement"
+  get "donations" => "statics#donations"
+  get "contact" => "statics#contact"
   get "login" => "statics#home"
-  get "meet" => "statics#home"
-  get "alumni" => "statics#home"
+  get "meet" => "dynamics#meet"
+  get "alumni" => "dynamics#alumni"
  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
